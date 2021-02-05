@@ -25,12 +25,12 @@
       <section>
         <h2>Le mie Spese</h2>
         <table>
-          <tr>
+          <tr>  <!--è meglio usare thead e metterci dentro tr-->
             <th>Numero</th>
             <th>Descrizione</th>
             <th>Costo</th>
           </tr>
-          <tr>
+          <tr>  <!--qui si usa tbody-->
             <td>1</td>
             <td>Biglietto Aereo</td>
             <td>120€</td>
@@ -45,9 +45,9 @@
               <td>Biglietto Aereo</td>
               <td>120€</td>
           </tr>
-          <tr>
+          <tr>  <!--qui si usa tfoot-->
               <td>Totale</td>
-              <td></td>
+              <td></td>  <!--invece di lasciare vuoto nella prima linea si usa l'attriburo colspan e si setta il valore desiderato-->
               <td>360€</td>
           </tr>
         </table>
